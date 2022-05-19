@@ -20,3 +20,5 @@ then
 echo -e "\e[1;32mYou should run the script with SUDO user\e[0m"
 exit 2
 fi
+LOG=/tmp/robo.log
+rm -rf $LOG
